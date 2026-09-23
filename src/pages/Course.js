@@ -7,122 +7,189 @@ import "../pages/Course.css";
 const courses = [
   {
     id: 1,
-    name: "Full Stack Development",
-    subtitle: "MERN Stack",
+    title: "Python Full Stack Development",
+    subtitle: "Python Full Stack Development",
     duration: "6 Months",
-    lpa: "3 - 8 LPA",
+    lpa: "3 – 8 LPA",
     benefits: [
-      "Frontend and Backend Development",
-      "Real-time Project Experience",
-      "Database Management",
-      "Interview Preparation",
-      "Resume Building"
+      "Learn Python programming from basics to advanced",
+      "Build web applications using Django",
+      "Learn React JS for modern frontend development",
+      "Work with MySQL database",
+      "Build real-time full stack projects",
+      "Interview and placement preparation"
     ],
     roles: [
+      "Python Developer",
       "Full Stack Developer",
-      "React JS Developer",
-      "Node JS Developer",
+      "Django Developer",
+      "Backend Developer",
       "Software Developer"
     ]
   },
+
   {
     id: 2,
-    name: "Java Full Stack Development",
-    subtitle: "Java + Spring Boot",
-    duration: "6 Months",
-    lpa: "3 - 8 LPA",
+    title: "Data Analytics",
+    subtitle: "Data Analytics",
+    duration: "4 Months",
+    lpa: "3 – 7 LPA",
     benefits: [
-      "Core Java and Advanced Java",
-      "Spring Boot Development",
-      "React JS Frontend",
-      "MySQL Database",
-      "Real-time Projects"
+      "Learn Python for data analysis",
+      "Master SQL and database queries",
+      "Learn Excel for data analysis",
+      "Create interactive dashboards using Power BI",
+      "Learn data cleaning and visualization",
+      "Work on real-world analytics projects"
+    ],
+    roles: [
+      "Data Analyst",
+      "Junior Data Analyst",
+      "Business Analyst",
+      "Business Intelligence Analyst",
+      "Reporting Analyst"
+    ]
+  },
+
+  {
+    id: 3,
+    title: "Cloud + DevOps",
+    subtitle: "Cloud + DevOps",
+    duration: "5 Months",
+    lpa: "3 – 8 LPA",
+    benefits: [
+      "Learn AWS cloud fundamentals",
+      "Learn Linux administration basics",
+      "Understand Docker and containerization",
+      "Learn CI/CD concepts and tools",
+      "Understand cloud deployment",
+      "Work on practical DevOps projects"
+    ],
+    roles: [
+      "Cloud Engineer",
+      "Cloud Support Engineer",
+      "DevOps Engineer",
+      "Cloud Administrator",
+      "System Administrator"
+    ]
+  },
+
+  {
+    id: 4,
+    title: "Testing + Automation",
+    subtitle: "Testing + Automation",
+    duration: "4 Months",
+    lpa: "3 – 7 LPA",
+    benefits: [
+      "Learn software testing fundamentals",
+      "Understand SDLC and STLC",
+      "Learn manual testing techniques",
+      "Automate web applications using Selenium",
+      "Learn API testing concepts",
+      "Practice real-time testing projects"
+    ],
+    roles: [
+      "Software Tester",
+      "QA Engineer",
+      "Automation Tester",
+      "Test Engineer",
+      "Selenium Automation Tester"
+    ]
+  },
+
+  {
+    id: 5,
+    title: "Java Full Stack Development",
+    subtitle: "Java Full Stack Development",
+    duration: "6 Months",
+    lpa: "3 – 8 LPA",
+    benefits: [
+      "Learn Core and Advanced Java",
+      "Build backend applications using Spring Boot",
+      "Learn React JS for frontend development",
+      "Work with MySQL databases",
+      "Build REST APIs",
+      "Develop real-time full stack projects",
+      "Interview and placement preparation"
     ],
     roles: [
       "Java Developer",
       "Java Full Stack Developer",
+      "Spring Boot Developer",
       "Backend Developer",
       "Software Engineer"
     ]
   },
-  {
-    id: 3,
-    name: "Cloud Engineering",
-    subtitle: "AWS + DevOps",
-    duration: "4 Months",
-    lpa: "3 - 7 LPA",
-    benefits: [
-      "AWS Cloud Fundamentals",
-      "Linux Administration",
-      "Cloud Deployment",
-      "DevOps Basics",
-      "Practical Cloud Projects"
-    ],
-    roles: [
-      "Cloud Support Engineer",
-      "Cloud Engineer",
-      "DevOps Engineer",
-      "System Administrator"
-    ]
-  },
-  {
-    id: 4,
-    name: "Data Analytics",
-    subtitle: "Python + SQL + Power BI",
-    duration: "4 Months",
-    lpa: "3 - 7 LPA",
-    benefits: [
-      "Python Programming",
-      "SQL Database",
-      "Data Cleaning",
-      "Power BI Dashboards",
-      "Data Analytics Projects"
-    ],
-    roles: [
-      "Data Analyst",
-      "Business Intelligence Analyst",
-      "Reporting Analyst",
-      "Junior Data Analyst"
-    ]
-  },
-  {
-    id: 5,
-    name: "Full Stack Development",
-    subtitle: "MERN Stack",
-    duration: "6 Months",
-    lpa: "3 - 8 LPA",
-    benefits: [
-      "Frontend and Backend Development",
-      "Real-time Project Experience",
-      "Database Management",
-      "Interview Preparation",
-      "Resume Building"
-    ],
-    roles: [
-      "Full Stack Developer",
-      "React JS Developer",
-      "Node JS Developer",
-      "Software Developer"
-    ]
-  },
+
   {
     id: 6,
-    name: "Full Stack Development",
-    subtitle: "MERN Stack",
-    duration: "6 Months",
-    lpa: "3 - 8 LPA",
+    title: "AI / ML + GenAI",
+    subtitle: "AI / ML + GenAI",
+    duration: "5 Months",
+    lpa: "4 – 10 LPA",
     benefits: [
-      "Frontend and Backend Development",
-      "Real-time Project Experience",
-      "Database Management",
-      "Interview Preparation",
-      "Resume Building"
+      "Learn Python for AI and Machine Learning",
+      "Understand Machine Learning algorithms",
+      "Learn data preprocessing and model building",
+      "Explore Generative AI concepts",
+      "Work with AI APIs and LLM concepts",
+      "Build practical AI/ML projects",
+      "Learn prompt engineering fundamentals"
     ],
     roles: [
-      "Full Stack Developer",
+      "AI/ML Engineer",
+      "Machine Learning Engineer",
+      "AI Developer",
+      "Generative AI Developer",
+      "Junior Data Scientist"
+    ]
+  },
+
+  {
+    id: 7,
+    title: "Cybersecurity",
+    subtitle: "Cybersecurity",
+    duration: "5 Months",
+    lpa: "3 – 8 LPA",
+    benefits: [
+      "Learn cybersecurity fundamentals",
+      "Understand networking and security concepts",
+      "Learn ethical hacking fundamentals",
+      "Understand vulnerability assessment",
+      "Learn SOC and security monitoring concepts",
+      "Practice cybersecurity labs and projects"
+    ],
+    roles: [
+      "Cybersecurity Analyst",
+      "SOC Analyst",
+      "Security Analyst",
+      "Information Security Analyst",
+      "Junior Security Engineer"
+    ]
+  },
+
+  {
+    id: 8,
+    title: "MERN / Modern Web Development",
+    subtitle: "MERN / Modern Web Development",
+    duration: "5 Months",
+    lpa: "3 – 8 LPA",
+    benefits: [
+      "Learn modern frontend development with React",
+      "Build backend applications using Node.js",
+      "Learn Express.js and REST APIs",
+      "Work with MongoDB database",
+      "Build responsive and modern websites",
+      "Develop real-time full stack projects",
+      "Git, GitHub and deployment basics",
+      "Interview and placement preparation"
+    ],
+    roles: [
+      "MERN Stack Developer",
       "React JS Developer",
-      "Node JS Developer",
-      "Software Developer"
+      "Node.js Developer",
+      "Full Stack Developer",
+      "Web Developer"
     ]
   }
 ];
@@ -169,11 +236,11 @@ function Course() {
                 💻
               </div>
 
-              <h3>{course.name}</h3>
+              <h3>{course.title}</h3>
 
-              <p className="course-subtitle">
+              {/* <p className="course-subtitle">
                 {course.subtitle}
-              </p>
+              </p> */}
 
               <div className="course-duration">
                 <span>⏱ Duration</span>
@@ -246,7 +313,7 @@ function Course() {
                 <h4>Expected Salary Range</h4>
                 <p>{selectedCourse.lpa}</p>
                 <small>
-                  Indicative range, not a placement guarantee.
+                  Indicative range a placement guarantee.
                 </small>
               </div>
 
