@@ -84,6 +84,46 @@ const courses = [
       "Reporting Analyst",
       "Junior Data Analyst"
     ]
+  },
+  {
+    id: 5,
+    name: "Full Stack Development",
+    subtitle: "MERN Stack",
+    duration: "6 Months",
+    lpa: "3 - 8 LPA",
+    benefits: [
+      "Frontend and Backend Development",
+      "Real-time Project Experience",
+      "Database Management",
+      "Interview Preparation",
+      "Resume Building"
+    ],
+    roles: [
+      "Full Stack Developer",
+      "React JS Developer",
+      "Node JS Developer",
+      "Software Developer"
+    ]
+  },
+  {
+    id: 6,
+    name: "Full Stack Development",
+    subtitle: "MERN Stack",
+    duration: "6 Months",
+    lpa: "3 - 8 LPA",
+    benefits: [
+      "Frontend and Backend Development",
+      "Real-time Project Experience",
+      "Database Management",
+      "Interview Preparation",
+      "Resume Building"
+    ],
+    roles: [
+      "Full Stack Developer",
+      "React JS Developer",
+      "Node JS Developer",
+      "Software Developer"
+    ]
   }
 ];
 
