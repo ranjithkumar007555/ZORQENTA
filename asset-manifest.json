@@ -1,5 +1,6 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.dade5eb2.css",
     "main.js": "/static/js/main.8d93398b.js",
     "static/media/logo192.png": "/static/media/logo192.9f1c6358d5133aef3946.png",
@@ -10,5 +11,25 @@
   "entrypoints": [
     "static/css/main.dade5eb2.css",
     "static/js/main.8d93398b.js"
+=======
+    "main.css": "/static/css/main.ad6999b6.css",
+    "main.js": "/static/js/main.fa95bda6.js",
+    "static/media/Capgemini.png": "/static/media/Capgemini.da595402c4e7b9d63c07.png",
+    "static/media/Cognizant.png": "/static/media/Cognizant.40816fc68ede0887605f.png",
+    "static/media/Amazon.png": "/static/media/Amazon.5a29faa99b3d371a8699.png",
+    "static/media/wipro.png": "/static/media/wipro.ce99e357488e7104586e.png",
+    "static/media/Bosch.png": "/static/media/Bosch.86b2edbd0b8b57040dc8.png",
+    "static/media/Infosys.png": "/static/media/Infosys.1762d43a3d91ec457242.png",
+    "static/media/logo192.png": "/static/media/logo192.9f1c6358d5133aef3946.png",
+    "static/media/Airtel.png": "/static/media/Airtel.d9db2dede4cab0ba295a.png",
+    "static/media/Accenture.png": "/static/media/Accenture.d810520d0f21a75e3de9.png",
+    "index.html": "/index.html",
+    "main.ad6999b6.css.map": "/static/css/main.ad6999b6.css.map",
+    "main.fa95bda6.js.map": "/static/js/main.fa95bda6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad6999b6.css",
+    "static/js/main.fa95bda6.js"
+>>>>>>> 9c4b82000b7683c7f3031d271db68dfb5c8057b8
   ]
 }
